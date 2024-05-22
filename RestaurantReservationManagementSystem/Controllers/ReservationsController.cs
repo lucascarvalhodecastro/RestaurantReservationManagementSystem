@@ -11,7 +11,6 @@ using RestaurantReservationManagementSystem.Models;
 
 namespace RestaurantReservationManagementSystem.Controllers
 {
-    [Authorize(Roles = "Admin")]
     public class ReservationsController : Controller
     {
         private readonly ApplicationDbContext _context;
